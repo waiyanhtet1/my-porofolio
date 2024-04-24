@@ -16,17 +16,17 @@ const Experience = () => {
                 size="large"
               ></ion-icon>
             </span>
-            <h3 className="ml-10">
+            <h3 className="ml-7 md:ml-10 text-sm md:text-base">
               Internship as Junior at{" "}
               <span className="text-tertiary">
                 Lyrion Innovations, Mingalar Taung Nyunt, Yangon
               </span>
             </h3>
           </p>
-          <h5 className="ml-10 mt-3 text-sm text-whitesmoke">
+          <h5 className="ml-7 md:ml-10 mt-3 text-xs md:text-sm text-whitesmoke ">
             March 2022 - May 2022
           </h5>
-          <ul className="text-secondary ml-14 mt-3 list-disc flex flex-col gap-3">
+          <ul className=" text-sm md:text-base text-secondary ml-8 md:ml-14 mt-3 list-disc flex flex-col gap-3">
             <li>
               Worked alone as sample landing page website with animaton and some
               data handling.
@@ -46,15 +46,15 @@ const Experience = () => {
                 size="large"
               ></ion-icon>
             </span>
-            <h3 className="ml-10">
+            <h3 className="ml-7 md:ml-10 text-sm md:text-base">
               Frontend Developer at{" "}
               <span className="text-tertiary">Anaget Company, Remote</span>
             </h3>
           </p>
-          <h5 className="ml-10 mt-3 text-sm text-whitesmoke">
+          <h5 className="ml-7 md:ml-10 mt-3 text-xs md:text-sm text-whitesmoke">
             October 2022 - September 2023
           </h5>
-          <ul className="text-secondary ml-14 mt-3 list-disc flex flex-col gap-3">
+          <ul className="text-sm md:text-base text-secondary ml-8 md:ml-14 mt-3 list-disc flex flex-col gap-3">
             <li>woked as frontend team leader for ui design and ux concept.</li>
             <li>
               collaboration with team members for better desgin principle and
