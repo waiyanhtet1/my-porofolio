@@ -3,7 +3,7 @@ import Experience from "./Experience";
 
 const Skill = () => {
   return (
-    <div className="flex flex-col gap-20">
+    <div className="flex flex-col gap-20 lg:w-3/5">
       <div className="text-white">
         <h5 className="title">Skills</h5>
 
