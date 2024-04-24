@@ -7,9 +7,10 @@ export default {
       primary: "#0d1117",
       secondary: "#4078c0",
       tertiary: "#6cc644",
-      graylight: "#fafafa",
+      graylight: "#25292e",
       gray: "#f5f5f5",
       whitesmoke: "#999",
+
       red: "#c9510c",
       white: "#fff",
     },
