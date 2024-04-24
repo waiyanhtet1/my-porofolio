@@ -18,6 +18,7 @@ const Navbar = () => {
       <a
         href="https://github.com/waiyanhtet1"
         className="cursor-pointer hover:opacity-30"
+        target="_blank"
       >
         <ion-icon name="logo-github" size="large"></ion-icon>
       </a>

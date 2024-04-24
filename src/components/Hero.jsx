@@ -3,7 +3,7 @@ import AnimationData from "../assets/Animation.json";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col-reverse justify-around px-5 md:flex-row h-screen">
+    <div className="flex flex-col-reverse justify-around items-center px-5 md:flex-row h-screen">
       {/* content info */}
       <div className="text-white md:hidden flex flex-col items-center gap-3 pb-3">
         <p className="flex items-center gap-2">
@@ -26,7 +26,13 @@ const Hero = () => {
       <div className=" text-white flex-1 flex flex-col justify-start items-center gap-4 md:justify-center">
         <p className="text-5xl md:text-7xl">Hello!</p>
         <p className="text-sm md:text-lg">Welcome from my portfolio!</p>
-        <button className="btn btn-primary">Download CV</button>
+        <a
+          href="/public/WYH_CV.pdf"
+          download="Wai Yan Htet's CV.pdf"
+          className="btn btn-primary"
+        >
+          Download CV
+        </a>
       </div>
 
       {/* animatin section */}
