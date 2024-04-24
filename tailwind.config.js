@@ -9,6 +9,7 @@ export default {
       tertiary: "#6cc644",
       graylight: "#fafafa",
       gray: "#f5f5f5",
+      red: "#c9510c",
       white: "#fff",
     },
     fontFamily: {

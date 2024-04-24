@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .btn {
-  @apply;
-} */
+.btn {
+  @apply px-3 py-2 rounded hover:opacity-80;
+}
+
+.btn-primary {
+  @apply bg-tertiary;
+}

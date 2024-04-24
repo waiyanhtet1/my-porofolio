@@ -1,9 +1,13 @@
 import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Profile from "./components/Profile";
 
 const App = () => {
   return (
     <div className="bg-primary font-poppins h-screen">
+      <Navbar />
       <Hero />
+      <Profile />
     </div>
   );
 };
