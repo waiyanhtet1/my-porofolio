@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="flex hidden md:flex items-center justify-between border-b-2 border-red p-3 text-white text-md">
+    <nav className="hidden md:flex items-center justify-between border-b-2 border-red p-3 text-white text-md">
       {/* left side */}
       <div className="flex items-center gap-2 ">
         <p className="flex items-center gap-2">
