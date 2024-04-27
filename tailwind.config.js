@@ -10,7 +10,6 @@ export default {
       graylight: "#25292e",
       gray: "#f5f5f5",
       whitesmoke: "#999",
-
       red: "#c9510c",
       white: "#fff",
     },

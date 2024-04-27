@@ -5,7 +5,7 @@ const Experience = () => {
     <div>
       <h5 className="title">Experience</h5>
 
-      <div className="border-b-2 w-full border-whitesmoke"></div>
+      <div className="border-b-2 w-full border-whitesmoke" />
 
       <ul className="mt-8">
         <li className="border-l-2 border-whitesmoke relative">

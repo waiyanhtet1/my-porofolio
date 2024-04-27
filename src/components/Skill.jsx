@@ -45,6 +45,8 @@ const Skill = () => {
       </div>
 
       <Experience />
+
+      <div className="border-b-2 w-full border-whitesmoke mt-[-50px]" />
     </div>
   );
 };

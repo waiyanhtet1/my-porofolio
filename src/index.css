@@ -16,6 +16,10 @@ body {
   @apply bg-tertiary text-white;
 }
 
+.btn-secondary {
+  @apply bg-graylight text-white;
+}
+
 .skill_card {
   @apply px-7 py-5 border border-whitesmoke rounded-md flex flex-col items-center gap-3;
 }
