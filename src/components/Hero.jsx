@@ -3,7 +3,7 @@ import AnimationData from "../assets/Animation.json";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col-reverse justify-around items-center px-5 md:flex-row h-screen">
+    <div className="flex flex-col-reverse justify-around items-center px-5 lg:flex-row h-screen">
       {/* content info */}
       <div className="text-white md:hidden flex flex-col items-center gap-3 pb-3">
         <p className="flex items-center gap-2">

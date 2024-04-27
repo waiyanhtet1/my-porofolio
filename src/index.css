@@ -13,7 +13,7 @@ body {
 }
 
 .btn-primary {
-  @apply bg-tertiary;
+  @apply bg-tertiary text-white;
 }
 
 .skill_card {
