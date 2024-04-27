@@ -10,7 +10,7 @@ const ProjectCard = ({ cardNo }) => {
       />
       <div className="p-5 flex flex-col gap-5">
         <h1 className="text-xl">SushiMan</h1>
-        <div className="flex items-center justify-around gap-1 w-10 h-10">
+        <div className="flex items-center justify-around gap-1 w-8 md:w-10 h-8 md:h-10">
           <img src="/html.svg" alt="html" />
           <img src="/css.svg" alt="html" />
         </div>

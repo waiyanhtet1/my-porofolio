@@ -39,7 +39,7 @@ const Hero = () => {
       <div className="flex-1">
         <Lottie
           animationData={AnimationData}
-          rendererSettings={{ className: "lottie-svg-class " }}
+          // rendererSettings={{ className: "lottie-svg-class " }}
         />
       </div>
     </div>

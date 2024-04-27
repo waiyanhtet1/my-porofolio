@@ -1,4 +1,6 @@
+import Lottie from "lottie-react";
 import React from "react";
+import projectAnimation from "../assets/projectAnimation.json";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
@@ -10,6 +12,13 @@ const Projects = () => {
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />
+
+        <div className="flex flex-col">
+          <Lottie animationData={projectAnimation} />
+          <p className="text-center mt-[-60px] text-lg text-white">
+            More working on projects!
+          </p>
+        </div>
       </div>
     </div>
   );
