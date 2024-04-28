@@ -1,8 +1,35 @@
 export const projectData = [
   {
     id: 1,
-    name: "SushiMan",
-    img: "/projectImg/sushiman.png",
-    link: "https://sushiman-sushishop.netlify.app/",
+    title: "SushiMan",
+    img: "sushiman.png",
+    demo: "https://sushiman-sushishop.netlify.app/",
+    technology: ["html", "css"],
+    github: "https://github.com/waiyanhtet1/sushiman",
+  },
+  {
+    id: 2,
+    title: "Youtube Clone",
+    img: "youtubeClone.png",
+    demo: "https://youtube-clone-wyh.netlify.app/",
+    technology: ["react", "material", "rapid"],
+    github: "https://github.com/waiyanhtet1/youtube-clone",
+  },
+  {
+    id: 3,
+    title: "Workout Buddy",
+    img: "workout.png",
+    demo: "https://mern-workout-track.vercel.app/",
+    technology: ["css", "react", "nodejs", "mongodb"],
+    github: "https://github.com/waiyanhtet1/mern-workout-track",
+  },
+  {
+    id: 4,
+    title: "Real Estate",
+    img: "estate.png",
+    // demo: "https://mern-workout-track.vercel.app/",
+    technology: ["css", "react", "nodejs", "mongodb"],
+    github: "https://github.com/waiyanhtet1/real-estate-ui",
+    githubBackend: "https://github.com/waiyanhtet1/real-estate-backend",
   },
 ];
