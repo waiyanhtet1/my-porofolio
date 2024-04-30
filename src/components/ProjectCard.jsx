@@ -12,7 +12,7 @@ const ProjectCard = ({ data }) => {
         <h1 className="text-xl">{data.title}</h1>
         <div className="flex items-center justify-around gap-3 w-8 md:w-10 h-8 md:h-10">
           {data.technology.map((tech) => (
-            <img src={`/${tech}.svg`} alt="" />
+            <img src={`/${tech}.svg`} alt="" key={tech} />
           ))}
         </div>
         <div className="flex">
@@ -27,7 +27,7 @@ const ProjectCard = ({ data }) => {
               </a>
               <a
                 href={data?.githubBackend}
-                className="btn btn-secondary"
+                className="btn btn-secondary ml-3"
                 target="_blank"
               >
                 Backend

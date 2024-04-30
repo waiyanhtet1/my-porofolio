@@ -32,4 +32,12 @@ export const projectData = [
     github: "https://github.com/waiyanhtet1/real-estate-ui",
     githubBackend: "https://github.com/waiyanhtet1/real-estate-backend",
   },
+  {
+    id: 5,
+    title: "Typing Speed",
+    img: "typingSpeed.png",
+    demo: "https://typing-speed-tan.vercel.app/",
+    technology: ["typescript", "react", "tailwind"],
+    github: "https://github.com/waiyanhtet1/typing-speed",
+  },
 ];

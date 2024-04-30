@@ -34,6 +34,11 @@ const Skill = () => {
           </div>
 
           <div className="skill_card">
+            <img src="/public/mongodb.svg" alt="" className="w-10 h-10" />
+            <span>MongoDB</span>
+          </div>
+
+          <div className="skill_card">
             <img src="/public/api.svg" alt="" className="w-10 h-10" />
             <span>Rest API</span>
           </div>
