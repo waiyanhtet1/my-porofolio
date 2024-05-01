@@ -27,7 +27,7 @@ const Hero = () => {
         <p className="text-5xl md:text-7xl">Hello!</p>
         <p className="text-sm md:text-lg">Welcome from my portfolio!</p>
         <a
-          href="/public/WYH_CV.pdf"
+          href="/WYH_CV.pdf"
           download="Wai Yan Htet's CV.pdf"
           className="btn btn-primary"
         >
