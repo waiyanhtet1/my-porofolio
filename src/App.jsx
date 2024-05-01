@@ -1,3 +1,4 @@
+import ContactUs from "./components/ContactUs";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Profile from "./components/Profile";
@@ -10,6 +11,7 @@ const App = () => {
       <Hero />
       <Profile />
       <Projects />
+      <ContactUs />
     </div>
   );
 };

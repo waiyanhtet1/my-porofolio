@@ -24,6 +24,7 @@ const Projects = () => {
           </p>
         </div>
       </div>
+      <div className="mt-10 border-b-2 w-full border-whitesmoke" />
     </div>
   );
 };

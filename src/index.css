@@ -27,3 +27,7 @@ body {
 .title {
   @apply text-lg mb-3 text-white;
 }
+
+.lottie-contact {
+  /* opacity: 0.3; */
+}
