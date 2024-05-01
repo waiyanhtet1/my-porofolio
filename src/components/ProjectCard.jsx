@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectCard = ({ data }) => {
   return (
-    <div className="h-max bg-primary  text-white border-2 border-whitesmoke rounded">
+    <div className="h-full bg-primary  text-white border-2 border-whitesmoke rounded transition-all hover:border-tertiary">
       <img
         src={`/projectImg/${data.img}`}
         alt=""
@@ -15,7 +15,7 @@ const ProjectCard = ({ data }) => {
             <img src={`/${tech}.svg`} alt="" key={tech} />
           ))}
         </div>
-        <div className="flex">
+        <div className="pb-3 md:pb-0 flex">
           {data.githubBackend ? (
             <>
               <a

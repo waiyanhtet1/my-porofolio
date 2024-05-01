@@ -41,3 +41,8 @@ export const projectData = [
     github: "https://github.com/waiyanhtet1/typing-speed",
   },
 ];
+
+export const commingProject = {
+  title: "Ecommerce Website",
+  technology: ["typescript", "react", "nodejs", "mongodb"],
+};
