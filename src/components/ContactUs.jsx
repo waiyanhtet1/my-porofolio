@@ -7,11 +7,27 @@ import Spinner from "./Spinner";
 
 const ContactUs = () => {
   const form = useRef();
+
+  const [userInput, setUserInput] = useState({
+    user_name: "",
+    user_email: "",
+    message: "",
+  });
   const [sendMail, setSendMail] = useState(false);
   const [isLoading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    if (
+      userInput.user_name.length === 0 ||
+      userInput.user_email.length === 0 ||
+      userInput.message.length === 0
+    ) {
+      setError("Fill all form");
+      return;
+    }
 
     setLoading(true);
 
@@ -33,15 +49,17 @@ const ContactUs = () => {
       );
   };
 
+  const handleChange = (e) => {
+    setUserInput((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+    setError("");
+  };
+
   return (
     <div className="text-white m-5 md:mx-20">
       <div className="text-2xl mb-10 text-center">Contact Me</div>
       <div className="flex justify-center items-center">
         <div className="absolute md:static">
-          <Lottie
-            animationData={hireMe}
-            rendererSettings={{ className: "opacti" }}
-          />
+          <Lottie animationData={hireMe} />
         </div>
         <form
           action=""
@@ -49,15 +67,29 @@ const ContactUs = () => {
           ref={form}
           onSubmit={sendEmail}
         >
-          <Input placeholder="Name" type="text" name="user_name" />
-          <Input placeholder="Email" type="email" name="user_email" />
+          <Input
+            placeholder="Name"
+            type="text"
+            name="user_name"
+            value={userInput.user_name}
+            onChange={handleChange}
+          />
+          <Input
+            placeholder="Email"
+            type="email"
+            name="user_email"
+            value={userInput.user_email}
+            onChange={handleChange}
+          />
           <textarea
             name="message"
             id=""
             rows="5"
             placeholder="Subject"
+            onChange={handleChange}
             className="bg-primary px-4 py-3 border-2 border-whitesmoke rounded-md focus:outline-none focus:border-secondary"
           ></textarea>
+          {error && <span className="text-red">{error}</span>}
           {sendMail ? (
             "Email Sent! Thanks for contacting me."
           ) : isLoading ? (
